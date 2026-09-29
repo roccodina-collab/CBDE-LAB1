@@ -10,7 +10,7 @@ chroma_client = chromadb.PersistentClient(path="./chroma_db")
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # 2. Les 10 frases de consulta
-query_ids = ["56", "72", "33", "598", "711", "678", "979", "110", "222", "396"]
+query_ids = ["55", "72", "33", "598", "711", "678", "979", "110", "222", "396"]
 
 # 3. Recuperar la col·lecció original
 original_collection = chroma_client.get_collection(
